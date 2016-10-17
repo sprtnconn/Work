@@ -1,0 +1,59 @@
+<!doctype html>
+<html ng-app="app" lang="en" ng-controller="AppCtrl">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="media/images/favicon.ico" />
+    <title>ICAP Test Web Application</title>
+    
+    <script src="dependencies/jquery/jquery-2.0.3.js" type="text/javascript"></script>
+    <script src="dependencies/jquery-ui/jquery-ui.js" type="text/javascript"></script>
+    <script src="dependencies/angular/angular.js" type="text/javascript"></script>
+    <script src="dependencies/angular/angular-route.js" type="text/javascript"></script>
+    <script src="dependencies/angular/angular-touch.js" type="text/javascript" ></script>
+    <script src="dependencies/angular/angular-animate.js" type="text/javascript" ></script>
+    <script src="dependencies/angular/angular-resource.js" type="text/javascript" ></script>
+    <script src="dependencies/ng-grid/ui-grid.js" type="text/javascript" ></script>
+    <script src="dependencies/bootstrap/js/bootstrap.js" type="text/javascript"></script> 
+    <script src="dependencies/bootstrap/js/bootstrap-tab.js" type="text/javascript"></script>
+    <script src="dependencies/angular-bootstrap/ui-bootstrap.js" type="text/javascript"></script>
+    <script src="dependencies/angular-bootstrap/ui-bootstrap-tpls.js" type="text/javascript"></script>
+
+	
+    
+    <script type="text/javascript" src="services/services.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="services/constants.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="dependencies/ng-grid/ng-grid.css" />
+    <link rel="stylesheet" type="text/css" href="dependencies/ng-grid/ui-grid.css" />
+    <link rel="stylesheet" type="text/css" href="dependencies/bootstrap/less/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="dependencies/jquery-ui/jquery-ui.css" />
+    <link type="text/css" rel="stylesheet" href="dependencies/font-awesome-4.3.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="app.css"/>
+
+  
+</head>
+<body style="height:700px;">
+    <div>
+        <h1 style="text-align:center;" >Icap Test Web App - To not be deployed locally.</h1>
+    </div>
+    <div>
+        <!--<div style="float:left;">
+            <button class="customButton" ng-click="forecast();" data-toggle="tooltip" data-placement="left" title="Sends AMICA Forecaster 10 prefilled data sets sequentially and concurrently.">
+                Test Forecaster
+            </button>
+            <button class="customButton" disabled data-toggle="tooltip" data-placement="left" title="Sends AMICA Forecaster 10 prefilled data sets sequentially and concurrently.">
+                Future Test
+            </button>
+            <button class="customButton" disabled data-toggle="tooltip" data-placement="left" title="Sends AMICA Forecaster 10 prefilled data sets sequentially and concurrently.">
+                Future Test
+            </button>
+            <button class="customButton" disabled data-toggle="tooltip" data-placement="left" title="Sends AMICA Forecaster 10 prefilled data sets sequentially and concurrently.">
+                Future Test
+            </button>
+        </div>-->
+        <div class="gridFindings" ui-grid-resizeColumns ui-grid="gridFindings"></div>
+    </div>
+
+</body>
+</html>

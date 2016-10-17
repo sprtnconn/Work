@@ -1,0 +1,41 @@
+/*************** Main Page ***************************/
+.app-fonts {
+  font-family: "Segoe UI" !important;
+}
+
+.app-colors {
+	height: 100%;
+	background: -webkit-linear-gradient(#0769AD, #3B97D9); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0769AD, #3B97D9); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#0769AD, #3B97D9); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#0769AD, #3B97D9); /* Standard syntax */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.gridFindings {
+    border: 1px solid rgb(154, 154, 154);
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0 , 0, 0.3);
+    margin-top: 10px;
+    display:inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:75%;
+    /*height: 290px;*/
+}
+
+.customButton{
+   margin-top:10px; 
+   margin-left:10px;
+   display:block;
+   width: 150px;
+}
+
+.centerCell{
+    text-align:center;
+}
+
+
